@@ -2,8 +2,8 @@ public class MinhaClase {
 
     public static void main(String [] args) {
   
-        String primeiroNome = "Hana";
-        String segundoNome="Leao";
+        String primeiroNome = "Hana ";
+        String segundoNome= "Leão";
 
         String nomeCompleto = nomeCompleto (primeiroNome, segundoNome);
 
@@ -11,7 +11,7 @@ public class MinhaClase {
     }
 
     public static String nomeCompleto (String primeiroNome, String segundoNome) {
-        return primeiroNome.concat("").concat(segundoNome);
+        return "Resultado do Métododo " + primeiroNome.concat("").concat(segundoNome);
     }
 
     
